@@ -38,6 +38,5 @@ do
             itemEsp:AddSwitch(v.Name, function(e) ESP2[v.Name] = e end)
         end
 	end
-	gTab:Show()
 	library:FormatWindows()
 end
