@@ -1,8 +1,9 @@
 local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/obeseinsect/roblox/main/Ui%20Libraries/Elerium.lua'))()
-local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/obeseinsect/roblox/main/Other%20Libraries/KiriotESP.lua"))()
-local ESP2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/obeseinsect/roblox/main/Other%20Libraries/KiriotESP.lua"))()
+
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/ESP-Lib/main/ESP.lua"))()
+local ESP2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/ESP-Lib/main/ESP.lua"))()
 ESP:Toggle(true); ESP.Players = false; ESP.Color = Color3.fromRGB(128,234,255)
-ESP2:Toggle(true); ESP2.Boxes = false; ESP.Players = false; ESP.Color = Color3.fromRGB(128,234,255)
+ESP2:Toggle(true); ESP2.Boxes = false; ESP2.Players = false
 
 local player = game.Players.LocalPlayer
 
