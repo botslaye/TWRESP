@@ -13,7 +13,7 @@ ESP3:AddObjectListener(workspace.World.Objectives, {
     Color = Color3.fromRGB(255,204,0),
     Type = 'Model',
     PrimaryPart = function(obj) while not obj:FindFirstChildWhichIsA('Part') do wait() end return obj:FindFirstChildWhichIsA('Part') end,
-    IsEnabled = function(obj) return ESP2[obj.Name] and player:DistanceFromCharacter(obj.PrimaryPart.Position) < objectiveRange end
+    IsEnabled = function(obj) return ESP3[obj.Name] and player:DistanceFromCharacter(obj.PrimaryPart.Position) < objectiveRange end
 })
 ESP2:AddObjectListener(workspace.Ignore.Items, {
     Color = Color3.fromRGB(102,255,102),
